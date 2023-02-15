@@ -1,0 +1,39 @@
+{
+  "cacheVersion": 2,
+  "fileHashCode": 117,
+  "sha256": "4654c772c705317b681c79956ccb8d001b03be03cb11d030fda5ed020b24c0be",
+  "parsingAttempts": 3,
+  "projectName": "message",
+  "dependencies": [
+    {
+      "coordinates": {
+        "groupId": "org.springframework.boot",
+        "artifactId": "spring-boot-starter-webflux",
+        "version": "2.5.2"
+      }
+    },
+    {
+      "coordinates": {
+        "groupId": "org.projectlombok",
+        "artifactId": "lombok",
+        "version": "1.18.20"
+      }
+    },
+    {
+      "coordinates": {
+        "groupId": "org.springframework.boot",
+        "artifactId": "spring-boot-starter-test",
+        "version": "2.5.2"
+      },
+      "scope": "test"
+    },
+    {
+      "coordinates": {
+        "groupId": "io.projectreactor",
+        "artifactId": "reactor-test",
+        "version": "3.4.7"
+      },
+      "scope": "test"
+    }
+  ]
+}

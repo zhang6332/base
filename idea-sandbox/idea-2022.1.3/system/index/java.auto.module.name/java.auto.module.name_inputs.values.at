@@ -1,0 +1,13 @@
+/Header Record For PersistentHashMapValueStoragespring.boot.starter.webfluxspring.boot.starterspring.boot
+spring.aopspring.contextspring.expressionspring.boot.autoconfigurespring.boot.starter.logginglogback.classiclogback.coreorg.apache.logging.slf4jlogback.classic	log4j.apijul.to.slf4jjava.annotationjakarta.annotation.apiorg.yaml.snakeyamlspring.boot.starter.jsonjackson.databindlogback.corejackson.annotationsjackson.corejackson.datatype.jdk8jackson.datatype.jsr310!jackson.module.parameter.names$!spring.boot.starter.reactor.nettyreactor.netty.httpio.netty.codec.httpio.netty.commonio.netty.bufferio.netty.transportio.netty.codecio.netty.handlerio.netty.codec.http2io.netty.resolver.dnsio.netty.resolverio.netty.codec.dnsio.netty.resolver.dns.macos!io.netty.transport.unix.commonio.netty.transport.epollreactor.netty.coreio.netty.handler.proxyio.netty.codec.socks
+spring.webspring.beansspring.webflux	lombokspring.boot.starter.testspring.boot.test!spring.boot.test.autoconfigure	json.path
+json.smartaccessors.smartasm	org.slf4jjakarta.xml.bind.apiasmjakarta.activation.apiassertj.coreorg.hamcrestjakarta.activation.apijunit.jupiterjunit.jupiter.apijakarta.xml.bind.apihamcrestapiguardian.apiapiguardian.api
+opentest4j
+opentest4jjunit.platform.commonsjunit.jupiter.paramsjunit.jupiter.enginejunit.platform.engineorg.mockito
+byte.buddybyte.buddy.agentorg.objenesisorg.mockito.junit.jupiter
+jsonassertandroid.jsonandroid.json
+jsonassertspring.core
+spring.jclspring.testorg.xmlunitreactor.testreactor.coreorg.reactivestreamscharsets	deploycldrdatadnsns
+jaccessjfxrt
+localedata
+nashornsunecsunjce.provider	sunpkcs11zipfs	javawsjcejfr	jfxswtjssemanagement.agent	plugin	resourcesrt

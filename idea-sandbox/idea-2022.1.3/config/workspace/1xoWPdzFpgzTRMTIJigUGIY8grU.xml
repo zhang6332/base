@@ -1,0 +1,147 @@
+<project version="4">
+    <component name="BookmarksManager">
+        <option name="groups">
+            <GroupState>
+                <option name="name" value="message"/>
+            </GroupState>
+        </option>
+    </component>
+    <component name="FileEditorManager">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+            <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/main/java/com/zjh/message/entity/Message.java">
+                    <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="374">
+                            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16"/>
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+        </leaf>
+    </component>
+    <component name="FileTypeUsageLocalSummary">
+        <fileType name="JAVA">
+            <summary usageCount="3" lastUsed="1676454431363"/>
+        </fileType>
+        <fileType name="textmate">
+            <summary usageCount="2" lastUsed="1676441026104"/>
+        </fileType>
+    </component>
+    <component name="IgnoredFileRootStore">
+        <option name="generatedRoots">
+            <set>
+                <option value="$PROJECT_DIR$/.idea"/>
+            </set>
+        </option>
+    </component>
+    <component name="MavenProjectNavigator">
+        <treeState>
+            <expand/>
+            <select/>
+        </treeState>
+    </component>
+    <component name="ProjectView">
+        <navigator currentView="ProjectPane" proportions="" version="1"/>
+        <panes>
+            <pane id="ProjectPane">
+                <subPane>
+                    <expand>
+                        <path>
+                            <item name="message" type="b2602c69:ProjectViewProjectNode"/>
+                            <item name="message" type="462c0819:PsiDirectoryNode"/>
+                        </path>
+                        <path>
+                            <item name="message" type="b2602c69:ProjectViewProjectNode"/>
+                            <item name="message" type="462c0819:PsiDirectoryNode"/>
+                            <item name="src" type="462c0819:PsiDirectoryNode"/>
+                        </path>
+                        <path>
+                            <item name="message" type="b2602c69:ProjectViewProjectNode"/>
+                            <item name="message" type="462c0819:PsiDirectoryNode"/>
+                            <item name="src" type="462c0819:PsiDirectoryNode"/>
+                            <item name="main" type="462c0819:PsiDirectoryNode"/>
+                        </path>
+                        <path>
+                            <item name="message" type="b2602c69:ProjectViewProjectNode"/>
+                            <item name="message" type="462c0819:PsiDirectoryNode"/>
+                            <item name="src" type="462c0819:PsiDirectoryNode"/>
+                            <item name="main" type="462c0819:PsiDirectoryNode"/>
+                            <item name="java" type="462c0819:PsiDirectoryNode"/>
+                        </path>
+                        <path>
+                            <item name="message" type="b2602c69:ProjectViewProjectNode"/>
+                            <item name="message" type="462c0819:PsiDirectoryNode"/>
+                            <item name="src" type="462c0819:PsiDirectoryNode"/>
+                            <item name="main" type="462c0819:PsiDirectoryNode"/>
+                            <item name="java" type="462c0819:PsiDirectoryNode"/>
+                            <item name="message" type="462c0819:PsiDirectoryNode"/>
+                        </path>
+                        <path>
+                            <item name="message" type="b2602c69:ProjectViewProjectNode"/>
+                            <item name="message" type="462c0819:PsiDirectoryNode"/>
+                            <item name="src" type="462c0819:PsiDirectoryNode"/>
+                            <item name="main" type="462c0819:PsiDirectoryNode"/>
+                            <item name="java" type="462c0819:PsiDirectoryNode"/>
+                            <item name="message" type="462c0819:PsiDirectoryNode"/>
+                            <item name="entity" type="462c0819:PsiDirectoryNode"/>
+                        </path>
+                        <path>
+                            <item name="message" type="b2602c69:ProjectViewProjectNode"/>
+                            <item name="message" type="462c0819:PsiDirectoryNode"/>
+                            <item name="src" type="462c0819:PsiDirectoryNode"/>
+                            <item name="main" type="462c0819:PsiDirectoryNode"/>
+                            <item name="java" type="462c0819:PsiDirectoryNode"/>
+                            <item name="message" type="462c0819:PsiDirectoryNode"/>
+                            <item name="entity" type="462c0819:PsiDirectoryNode"/>
+                            <item name="Message" type="1a9f42e2:ClassTreeNode"/>
+                        </path>
+                    </expand>
+                    <select/>
+                </subPane>
+            </pane>
+            <pane id="PackagesPane"/>
+            <pane id="Scope"/>
+        </panes>
+    </component>
+    <component name="ToolWindowManager">
+        <editor active="true"/>
+        <layout>
+            <window_info id="Bookmarks" order="0" side_tool="true"/>
+            <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27276266"/>
+            <window_info id="Learn" order="2"/>
+            <window_info id="Structure" order="3" side_tool="true"/>
+            <window_info anchor="bottom" id="Version Control" order="0"/>
+            <window_info anchor="bottom" id="Find" order="1"/>
+            <window_info anchor="bottom" id="Run" order="2"/>
+            <window_info anchor="bottom" id="Debug" order="3" weight="0.4"/>
+            <window_info anchor="bottom" id="TODO" order="4"/>
+            <window_info anchor="bottom" id="Inspection" order="5" weight="0.4"/>
+            <window_info anchor="bottom" id="Problems View" order="6"/>
+            <window_info anchor="bottom" id="Terminal" order="7"/>
+            <window_info anchor="bottom" id="Services" order="8"/>
+            <window_info anchor="bottom" id="Build" order="9"/>
+            <window_info anchor="bottom" id="Dependencies" order="10"/>
+            <window_info anchor="right" id="Maven" order="0"/>
+            <window_info anchor="right" id="Notifications" order="1" weight="0.25"/>
+        </layout>
+        <recentWindows>
+            <value>Project</value>
+        </recentWindows>
+    </component>
+    <component name="editorHistoryManager">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="22">
+                    <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1"/>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zjh/message/entity/Message.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                    <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16"/>
+                </state>
+            </provider>
+        </entry>
+    </component>
+</project>

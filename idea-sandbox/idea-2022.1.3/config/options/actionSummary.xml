@@ -1,0 +1,16 @@
+<application>
+    <component name="ActionsLocalSummary">
+        <e n="WelcomeScreen.CreateNewProject">
+            <i c="3" l="1676445549905"/>
+        </e>
+        <e n="WelcomeScreen.OpenProject">
+            <i c="1" l="1676436283336"/>
+        </e>
+        <e n="com.intellij.ide.ReopenProjectAction">
+            <i c="2" l="1676454428288"/>
+        </e>
+        <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+            <i c="1" l="1676441042833"/>
+        </e>
+    </component>
+</application>

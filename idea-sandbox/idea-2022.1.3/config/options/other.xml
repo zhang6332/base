@@ -1,0 +1,49 @@
+<application>
+    <component name="DynamicPluginEnabler">
+        <trackers>
+            <map>
+                <entry key="1xoWPdzFpgzTRMTIJigUGIY8grU">
+                    <value>
+                        <ProjectPluginTracker/>
+                    </value>
+                </entry>
+            </map>
+        </trackers>
+    </component>
+    <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "CWM_LOGGING_VERSION": "1",
+    "NextRunPlatformUpdateBuild": "IC-221.6008.13/2022.1.4",
+    "NextRunPlatformUpdateVersion": "2022.1.4",
+    "RunOnceActivity.se.text.search": "true",
+    "SAVED_ANDROID_NPW_LANGUAGE": "Kotlin",
+    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "bundled.plugins.list.saved.version": "IC-221.5921.22",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
+    "com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep": "Java",
+    "defaultJdkConfigured": "true",
+    "defaultpackageserviceconfig.fulltext": "https://package-search.services.jetbrains.com/api/search/idea/fulltext",
+    "defaultpackageserviceconfig.suggest": "https://package-search.services.jetbrains.com/api/search/idea/suggest",
+    "defaultpackageserviceconfig.updated.ts": "1676436311753",
+    "eclipse.projects.detected": "",
+    "fileTypeChangedCounter": "1",
+    "got.it.tooltip.cwm.invitation.notification": "1",
+    "gotit.previous.run": "IC-221.5921.22",
+    "ide.memory.adjusted": "true",
+    "ide.updates.whats.new.shown.for": "221",
+    "installed.kotlin.plugin.version": "221-1.6.21-release-337-IJ5921.22",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "project.wizard.group": "com.ilsmp.base.wizard.CrudModuleBuilder",
+    "registry.to.advanced.settings.migration.build": "IC-221.5921.22",
+    "tasks.pass.word.conversion.enforced": "true"
+  },
+  "keyToStringList": {
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector",
+      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>

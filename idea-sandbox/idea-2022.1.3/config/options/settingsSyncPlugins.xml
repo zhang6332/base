@@ -1,0 +1,21 @@
+<application>
+    <component name="SettingsSyncPlugins">
+        <option name="plugins">
+            <map>
+                <entry key="com.ilsmp.base">
+                    <value>
+                        <PluginData>
+                            <option name="dependencies">
+                                <set>
+                                    <option value="com.intellij.modules.java"/>
+                                    <option value="com.intellij.modules.lang"/>
+                                    <option value="com.intellij.modules.platform"/>
+                                </set>
+                            </option>
+                        </PluginData>
+                    </value>
+                </entry>
+            </map>
+        </option>
+    </component>
+</application>

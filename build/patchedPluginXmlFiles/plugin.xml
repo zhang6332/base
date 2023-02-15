@@ -1,0 +1,53 @@
+<idea-plugin>
+  <version>1.0</version>
+  <change-notes>针对base包提供定制化适配</change-notes>
+  <id>com.ilsmp.base</id>
+  <id>com.ilsmp.base</id>
+  <name>Base</name>
+  <vendor email="981163085@qq.com" url="https://mp.csdn.net/mp_blog/manage/article?spm=3001.5298">ilsmp</vendor>
+  <category>Code Tools</category>
+  <!-- 项目构建基础包，代码生成、拓展Spring Data JPA、swagger2.x、OpenAPI、multiple data sources-->
+  <description><![CDATA[<div>
+    <h1>Base Plugin</h1>
+    <br/>
+    <div>
+        <p>A curd-based plug-in that supports database table structure, DDL, and entity class generation code. Supports SpringDataJPA, MyBatis, MyBatis-Plus frameworks and custom templates.</p>
+    </div>
+    <br/>
+    <div>
+        <p>一个基于curd实现的的支持数据库表结构、DDL、实体类生成代码的插件。支持SpringDataJPA、MyBatis、MyBatis-Plus框架以及自定义模板。</p>
+    </div>
+    <br/>
+</div>]]></description>
+  <depends>com.intellij.modules.lang</depends>
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.java</depends>
+  <depends optional="true" config-file="maven-support.xml">org.jetbrains.idea.maven</depends>
+  <idea-version since-build="203" until-build="221.*" />
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <moduleBuilder builderClass="com.ilsmp.base.wizard.CrudModuleBuilder" />
+    <applicationService serviceImplementation="com.ilsmp.base.setting.CrudSettings" />
+    <applicationConfigurable parentId="tools" instance="com.ilsmp.base.setting.CrudConfigurable" />
+    <applicationConfigurable parentId="com.ilsmp.base.setting.TemplateImportConfigurable" instance="com.ilsmp.base.setting.TemplateImportConfigurable" />
+    <applicationConfigurable parentId="com.ilsmp.base.setting.MyTemplateConfigurable" instance="com.ilsmp.base.setting.MyTemplateConfigurable" />
+  </extensions>
+  <actions>
+    <group id="BaseGroup" text="Base" popup="true" icon="/icons/logo.svg">
+      <add-to-group group-id="ProjectViewPopupMenu" anchor="first" />
+    </group>
+    <!-- Add your actions here -->
+    <action class="com.ilsmp.base.action.CreateCrudFromDbAction" id="base.CreateCrudFromDbAction" description="CodeGenerate" icon="/icons/code.svg" text="从数据库表生成模板代码">
+      <add-to-group group-id="BaseGroup" anchor="first" />
+    </action>
+    <action class="com.ilsmp.base.action.CreateCrudFromDdlAction" id="base.CreateCrudFromDdlAction" description="CodeGenerate" icon="/icons/code.svg" text="从DDL生成模板代码">
+      <add-to-group group-id="BaseGroup" anchor="first" />
+    </action>
+    <action class="com.ilsmp.base.action.CreateCrudFromModelAction" id="base.CreateCrudFromModelAction" description="CodeGenerate" icon="/icons/code.svg" text="从当前选中的实体类生成模板代码">
+      <add-to-group group-id="BaseGroup" anchor="first" />
+    </action>
+    <action id="base.CreateCrudFromModelAction2" class="com.ilsmp.base.action.CreateCrudFromModelAction" text="从该实体类生成模板代码" description="将会把该实体类映射成为模板中的一个table，和从数据库表、DDL生成代码类似" icon="/icons/code.svg">
+      <add-to-group group-id="EditorPopupMenu" anchor="first" />
+    </action>
+  </actions>
+</idea-plugin>

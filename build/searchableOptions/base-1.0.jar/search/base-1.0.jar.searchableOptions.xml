@@ -1,0 +1,42 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="codegenerate" path="ActionManager" hit="CodeGenerate" />
+    <option name="从ddl生成模板代码" path="ActionManager" hit="从DDL生成模板代码" />
+    <option name="从当前选中的实体类生成模板代码" path="ActionManager" hit="从当前选中的实体类生成模板代码" />
+    <option name="从数据库表生成模板代码" path="ActionManager" hit="从数据库表生成模板代码" />
+    <option name="从该实体类生成模板代码" path="ActionManager" hit="从该实体类生成模板代码" />
+    <option name="ddl生成代码类似" path="ActionManager" hit="将会把该实体类映射成为模板中的一个table，和从数据库表、DDL生成代码类似" />
+    <option name="和从数据库表" path="ActionManager" hit="将会把该实体类映射成为模板中的一个table，和从数据库表、DDL生成代码类似" />
+    <option name="将会把该实体类映射成为模板中的一个table" path="ActionManager" hit="将会把该实体类映射成为模板中的一个table，和从数据库表、DDL生成代码类似" />
+  </configurable>
+  <configurable id="com.ilsmp.base.setting.CrudConfigurable" configurable_name="Base">
+    <option name="base" hit="Base" />
+    <option name="base" hit="Base   " />
+    <option name="设置" hit="Base   " />
+  </configurable>
+  <configurable id="class com.ilsmp.base.setting.TemplateImportConfigurable" configurable_name="模板导入">
+    <option name="导入" hit="  " />
+    <option name="令牌导入" hit="    " />
+    <option name="市场搜索" hit="    " />
+    <option name="模板导入" hit="    " />
+    <option name="项目模板名称" hit="      : " />
+    <option name="修改时间" hit="    : " />
+    <option name="所属组织" hit="    : " />
+    <option name="创建人" hit="   : " />
+    <option name="描述" hit="  : " />
+    <option name="label" hit="Label" />
+    <option name="loading" hit="Loading..." />
+  </configurable>
+  <configurable id="class com.ilsmp.base.setting.MyTemplateConfigurable" configurable_name="我的模板">
+    <option name="删除模板" hit="    " />
+    <option name="刷新模板" hit="    " />
+    <option name="我的模板" hit="    " />
+    <option name="项目模板名称" hit="      : " />
+    <option name="修改时间" hit="    : " />
+    <option name="所属组织" hit="    : " />
+    <option name="是否公开" hit="    : " />
+    <option name="创建人" hit="   : " />
+    <option name="描述" hit="  : " />
+    <option name="label" hit="Label" />
+  </configurable>
+</options>
