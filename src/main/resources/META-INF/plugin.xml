@@ -27,7 +27,7 @@
 
     <depends optional="true" config-file="maven-support.xml">org.jetbrains.idea.maven</depends>
 
-    <idea-version since-build="203" until-build="221.*"/>
+    <idea-version since-build="203" until-build="231.*"/>
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
         <moduleBuilder builderClass="com.ilsmp.base.wizard.CrudModuleBuilder"/>

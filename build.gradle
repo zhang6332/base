@@ -3,7 +3,7 @@ plugins {
     id 'java'
 }
 group 'com.ilsmp'
-version '1.0'
+version '1.1'
 tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
 }
@@ -59,4 +59,7 @@ if (lp.exists()) {
 }
 publishPlugin {
     token.set(TOKEN)
+}
+buildPlugin {
+    buildSearchableOptions.enabled = false
 }

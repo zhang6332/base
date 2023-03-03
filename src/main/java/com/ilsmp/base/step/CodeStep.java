@@ -18,7 +18,6 @@ import com.ilsmp.base.service.ProjectTemplateService;
 import com.ilsmp.base.setting.CrudSettings;
 import com.ilsmp.base.util.CrudUtils;
 import com.intellij.ide.util.projectWizard.ModuleWizardStep;
-import com.intellij.internal.statistic.eventLog.util.StringUtil;
 import com.intellij.openapi.fileChooser.FileChooserDescriptor;
 import com.intellij.openapi.options.ConfigurationException;
 import com.intellij.openapi.ui.TextComponentAccessor;
@@ -26,6 +25,7 @@ import com.intellij.openapi.ui.TextFieldWithBrowseButton;
 import com.intellij.ui.CheckBoxList;
 import com.intellij.ui.components.JBScrollPane;
 import com.intellij.util.ui.ThreeStateCheckBox;
+import org.jetbrains.uast.values.UBooleanConstant;
 
 public class CodeStep extends ModuleWizardStep {
     private JPanel myMainPanel;
@@ -77,17 +77,29 @@ public class CodeStep extends ModuleWizardStep {
 
     }
 
+    private Boolean stringIsEmpty(String str) {
+        if (str == null || str.isEmpty()) {
+            return true;
+        }
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) > ' ') {
+                return false;
+            }
+        }
+        return true;
+    }
+
     @Override
     public boolean validate() throws ConfigurationException {
         try {
             String projectPath = projectPathButton.getText();
-            if (StringUtil.isEmptyOrSpaces(projectPath)) {
+            if (org.apache.commons.lang3.StringUtils.isEmpty(projectPath)) {
                 throw new Exception("请选择项目路径");
             }
             String basePackage = basePackageTextField.getText();
             if (Arrays.asList(ProjectTypeEnum.JAVA.getCode(), ProjectTypeEnum.MAVEN.getCode())
                     .contains(projectTemplateService.detail(ptId).getProjectType())) {
-                if (StringUtil.isEmptyOrSpaces(basePackage)) {
+                if (org.apache.commons.lang3.StringUtils.isEmpty(basePackage)) {
                     throw new Exception("请输入basePackage");
                 }
                 Preconditions.checkArgument(StringUtils.isPackageName(basePackage), "basePackage格式错误");

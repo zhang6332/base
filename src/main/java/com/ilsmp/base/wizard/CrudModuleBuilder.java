@@ -112,7 +112,6 @@ public class CrudModuleBuilder extends ModuleBuilder {
     @Override
     public ModuleWizardStep modifySettingsStep(@NotNull SettingsStep settingsStep) {
         ProjectTemplateDTO projectTemplate = CrudSettings.currentGenerate().getProjectTemplate();
-
         JTextField moduleNameField = settingsStep.getModuleNameField();
         JTextField groupIdTextField = mavenView.getGroupIdTextField();
         JTextField artifactIdTextField = mavenView.getArtifactIdTextField();
